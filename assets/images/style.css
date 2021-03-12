@@ -1,3 +1,53 @@
 h1{
-    color: aquamarine;
+    color: black;
+}
+
+.box-set {
+    position: relative;
+    height: 400px;
+    background: darkgray;
+  }
+
+.container-v {
+    width: 100%;
+    height: 100%;
+  }
+
+  .iframe-container {
+    overflow: hidden;
+    /* 16:9 aspect ratio */
+    padding-top: 56.25%;
+    position: relative;
+  }
+
+  .iframe-container iframe {
+    border: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+ }
+
+ .box-main{
+    float:left;
+    margin-right:20px;
+}
+.box-main-r{
+    float:right;
+    margin-right:20px;
+.clear-main{
+    clear:both;
+}
+
+#parent {
+    display: flex;
+}
+#left-window {
+    width: 50%;
+    height: 100%;
+}
+#right-window {
+    width: 50%;
+    height: 100%;
 }
