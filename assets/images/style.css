@@ -1,6 +1,5 @@
- body{
-    background-color: #EDEDED; 
-}
+
+
 /* Navbar */
 .navbar{
     max-height: 57px; 
@@ -125,7 +124,7 @@ button:focus {
 }
 body  {
   background-image: black;
-  background-color: #cccccc;
+  background-color: #000000;
   height: 800px;
   background-position: center;
   background-repeat: repeat;
