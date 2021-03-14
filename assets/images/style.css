@@ -1,4 +1,11 @@
-
+body  {
+  background-color: #FF10F0;
+  height: 800px;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  position: relative;
+}
 
 /* Navbar */
 .navbar{
@@ -122,12 +129,4 @@ button:focus {
     
     }
 }
-body  {
-  background-image: black;
-  background-color: #000000;
-  height: 800px;
-  background-position: center;
-  background-repeat: repeat;
-  background-size: cover;
-  position: relative;
-}
+
