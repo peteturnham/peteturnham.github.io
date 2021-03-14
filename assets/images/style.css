@@ -123,6 +123,12 @@ button:focus {
     
     }
 }
-.background_color{
- backgroundcolor: black;
+body  {
+  background-image: black;
+  background-color: #cccccc;
+  height: 800px;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  position: relative;
 }
